@@ -7,3 +7,7 @@ F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Entities\bin\Debug\Sch
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Entities\obj\Debug\SchoolScheduleManager.Entities.dll
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Entities\obj\Debug\SchoolScheduleManager.Entities.pdb
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Entities\obj\Debug\SchoolScheduleManager.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Entities\bin\Debug\SchoolScheduleManager.Entities.dll
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Entities\bin\Debug\SchoolScheduleManager.Entities.pdb
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Entities\obj\Debug\SchoolScheduleManager.Entities.dll
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Entities\obj\Debug\SchoolScheduleManager.Entities.pdb

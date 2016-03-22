@@ -8,3 +8,8 @@ F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\bin\Debug\Sch
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.pdb
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\obj\Debug\SchoolScheduleManager.Database.dll
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\obj\Debug\SchoolScheduleManager.Database.pdb
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.dacpac
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.dll
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.pdb
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Database\obj\Debug\SchoolScheduleManager.Database.dll
+C:\Users\Андрій\Desktop\SchoolSchedule-master\SchoolScheduleManager\SchoolScheduleManager.Database\obj\Debug\SchoolScheduleManager.Database.pdb
