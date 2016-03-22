@@ -1,0 +1,7 @@
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Repositories\bin\Release\SchoolScheduleManager.Repositories.dll
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Repositories\bin\Release\SchoolScheduleManager.Repositories.pdb
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Repositories\bin\Release\SchoolScheduleManager.Entities.dll
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Repositories\bin\Release\SchoolScheduleManager.Entities.pdb
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Repositories\obj\Release\SchoolScheduleManager.Repositories.csprojResolveAssemblyReference.cache
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Repositories\obj\Release\SchoolScheduleManager.Repositories.dll
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Repositories\obj\Release\SchoolScheduleManager.Repositories.pdb
