@@ -40,6 +40,10 @@ namespace SchoolScheduleManager.Repositories.Repositories
         #endregion        
 
         #region ITeacherRepository region
+        /// <summary>
+        /// Get all Teachers
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<Teacher> GetAll()
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -66,6 +70,11 @@ namespace SchoolScheduleManager.Repositories.Repositories
             }
         }
 
+        /// <summary>
+        /// Add teacher to DB
+        /// </summary>
+        /// <param name="teacher"></param>
+        /// <returns></returns>
         public string Add(Teacher teacher)
         {
             using (TransactionScope scope = new TransactionScope())
@@ -117,6 +126,15 @@ namespace SchoolScheduleManager.Repositories.Repositories
 
         #endregion
 
+        #region Public Methods region
+        /// <summary>
+        /// Get all teacher that dont have lesson at preset time
+        /// </summary>
+        /// <param name="year"></param>
+        /// <param name="semester"></param>
+        /// <param name="dayOfWeek"></param>
+        /// <param name="lessonNumb"></param>
+        /// <returns></returns>
         public IEnumerable<Teacher> GetAvailable(int year, int semester, int dayOfWeek, int lessonNumb)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -152,5 +170,7 @@ namespace SchoolScheduleManager.Repositories.Repositories
                 }
             }
         }
+
+        #endregion
     }
 }

@@ -29,7 +29,12 @@ namespace SchoolScheduleManager.Repositories
         #endregion
 
         #region IUserRepository region
-
+        /// <summary>
+        /// Get user from DB by his login
+        /// </summary>
+        /// <param name="login"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
         public User GetUserByLogin(string login, string password)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))

@@ -60,6 +60,15 @@ namespace SchoolScheduleManager.Repositories.Repositories
         #endregion
 
         #region IBaseRepository region
+        /// <summary>
+        /// Get: Schedule of entity variant
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <param name="dayOfWeek"></param>
+        /// <param name="year"></param>
+        /// <param name="semester"></param>
+        /// <param name="entityVariant"></param>
+        /// <returns></returns>
         public virtual IEnumerable<Lesson> GetSchedule(int Id, int dayOfWeek, int year, int semester, EntityVariant entityVariant)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -142,6 +151,12 @@ namespace SchoolScheduleManager.Repositories.Repositories
             }
         }
 
+
+        /// <summary>
+        /// Remove some entity variant by it Id
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <param name="entityVariant"></param>
         public void Remove(int Id, EntityVariant entityVariant)
         {
             using (TransactionScope scope = new TransactionScope())

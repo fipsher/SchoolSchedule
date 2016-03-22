@@ -81,20 +81,11 @@ INSERT INTO [dbo].[tblTeacher]
 GO
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/master
 set identity_insert tblUser on;
 
 insert into tblUser (Id, FirstName, Surname, [Login], [Password], [Disabled])
 	values
-<<<<<<< HEAD
 				(1, 'UserName', 'UserSurName', 'Admin', '21232f297a57a5a743894a0e4a801fc3', 0) --password: admin
-=======
-				(1, 'UserName', 'UserSurName', 'Admin', '21232f297a57a5a743894a0e4a801fc3', 0) -- password: admin
->>>>>>> origin/master
 
 set identity_insert tblUser off;
 

@@ -59,6 +59,12 @@ namespace SchoolScheduleManager.Repositories.Repositories
         #endregion
 
         #region ILessonRepository region
+
+        /// <summary>
+        /// Add lesson to Database
+        /// </summary>
+        /// <param name="lesson"></param>
+        /// <returns></returns>
         public string InputLesson(Lesson lesson)
         {
             using (TransactionScope scope = new TransactionScope())
@@ -132,7 +138,11 @@ namespace SchoolScheduleManager.Repositories.Repositories
                 }
             }
         }
-
+        
+        /// <summary>
+        /// Get all lessons
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<Lesson> GetAllLessons()
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -168,6 +178,11 @@ namespace SchoolScheduleManager.Repositories.Repositories
             }
         }
 
+        /// <summary>
+        /// Romove lesson by Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public int Remove(int id)
         {
             using (TransactionScope scope = new TransactionScope())

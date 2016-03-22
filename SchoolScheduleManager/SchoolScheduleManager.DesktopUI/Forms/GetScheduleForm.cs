@@ -77,7 +77,9 @@ namespace SchoolScheduleManager.DesktopUI
             }
             return scheduleFunc(id, dayOfWeek, year, semester, scheduleVariant).ToList();
         }
-
+        /// <summary>
+        /// If it's possible to get Schedule it gets it
+        /// </summary>
         private void tryToGetSchedule()
         {
             schedule = new List<Lesson>();

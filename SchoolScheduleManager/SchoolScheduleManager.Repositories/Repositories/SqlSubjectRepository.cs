@@ -21,7 +21,10 @@ namespace SchoolScheduleManager.Repositories.Repositories
         #endregion
 
         #region ISubjectRepository region
-
+        /// <summary>
+        /// Get all subjects
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<Subject> GetAll()
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -47,6 +50,11 @@ namespace SchoolScheduleManager.Repositories.Repositories
             }
         }
 
+        /// <summary>
+        /// Add subject to DB
+        /// </summary>
+        /// <param name="subject"></param>
+        /// <returns></returns>
         public string Add(Subject subject)
         {
             using (TransactionScope scope = new TransactionScope())
