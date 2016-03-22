@@ -40,6 +40,9 @@ namespace SchoolScheduleManager.DesktopUI.Forms.RemoveForms
         #endregion
 
         #region private Methods region
+        /// <summary>
+        /// Fills comboBoxes with all entityVariant(Teahcher room etc)
+        /// </summary>
         private void fillComboBox()
         {
             cmbTechGroupRoomSubj.Items.Clear();

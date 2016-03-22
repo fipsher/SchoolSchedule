@@ -30,6 +30,9 @@ namespace SchoolScheduleManager.DesktopUI.Forms.RemoveForms
         #endregion
 
         #region Private Methods
+        /// <summary>
+        /// Fills DataDridView(dgv)
+        /// </summary>
         private void fillDgv()
         {
             lessons = lessonRepository.GetAllLessons().ToList();
@@ -39,7 +42,10 @@ namespace SchoolScheduleManager.DesktopUI.Forms.RemoveForms
                 addLessonToDgv(lessons[i]);
             }
         }
-
+        /// <summary>
+        /// Add 1 lesson to dgv
+        /// </summary>
+        /// <param name="lesson"></param>
         private void addLessonToDgv(Lesson lesson)
         {
             Day dayOfWeek = (Day)(lesson.DayOfWeek - 1);
