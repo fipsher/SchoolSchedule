@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SchoolScheduleManager.DesktopUI.Forms.AddGroupForm">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACSAAAgAAAAAAAAAAAAEI=</HashCode>
+      <FileName>Forms\AddForms\AddGroupForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.Forms.AddRoomForm">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAADAAAACAAAAgAAAAAAAAAAAACI=</HashCode>
+      <FileName>Forms\AddForms\AddRoomForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.Forms.AddSubjectForm">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAACAAAACAAAACAAAAoAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Forms\AddForms\AddSubjectForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.Forms.AddTeacherForm">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAgAASAEAAAAAACAAAACAAAAgAAAAAAAAAgAAAI=</HashCode>
+      <FileName>Forms\AddForms\AddTeacherForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.Forms.InputLessonForm">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEkECEDAAcABggAqgEAQiQAAFAiIEAAAQBAgVQAI=</HashCode>
+      <FileName>Forms\InputLessonForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.Forms.LoginForm">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAEgICAAAEEAAACAAAACAAAACAAAAgAAAABAAAA=</HashCode>
+      <FileName>Forms\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.GetScheduleForm">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGCQECCBCAAUAgAJIKAMAwCBCADAgJAAIAkBAAAAAY=</HashCode>
+      <FileName>Forms\GetScheduleForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.Forms.RemoveForms.RemoveForm">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQBgAQCIAAAAQAACAAAACACAAACBoACAAAAAEAAA=</HashCode>
+      <FileName>Forms\RemoveForms\RemoveForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.Forms.RemoveForms.RemoveLessonForm">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAEAAFCAAAAAAIICAoAACAEAAABAgAAAEAAABAAQ=</HashCode>
+      <FileName>Forms\RemoveForms\RemoveLessonForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolScheduleManager.DesktopUI.MainForm">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACDEAiADYAAAgAIACAAEADAAhIBCAQoAgAAAAAAIA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

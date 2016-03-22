@@ -1,0 +1,10 @@
+F:\VSProgects\Schedule.DesktopUI\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.dacpac
+F:\VSProgects\Schedule.DesktopUI\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.dll
+F:\VSProgects\Schedule.DesktopUI\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.pdb
+F:\VSProgects\Schedule.DesktopUI\SchoolScheduleManager.Database\obj\Debug\SchoolScheduleManager.Database.dll
+F:\VSProgects\Schedule.DesktopUI\SchoolScheduleManager.Database\obj\Debug\SchoolScheduleManager.Database.pdb
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.dacpac
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.dll
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\bin\Debug\SchoolScheduleManager.Database.pdb
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\obj\Debug\SchoolScheduleManager.Database.dll
+F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.Database\obj\Debug\SchoolScheduleManager.Database.pdb
