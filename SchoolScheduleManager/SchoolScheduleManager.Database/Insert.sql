@@ -81,83 +81,13 @@ INSERT INTO [dbo].[tblTeacher]
 GO
 
 
-INSERT INTO [dbo].[tblLesson]
-           ([SubjectId]
-           ,[TeacherId]
-           ,[GroupId]
-           ,[RoomId]
-           ,[Year]
-           ,[Semester]
-           ,[DayOfWeek]
-           ,[LessonNumber]
-		   ,[Deleted])
-     VALUES
-           (1
-           ,1
-           ,1
-           ,1
-           ,2016
-           ,2
-           ,1
-           ,1
-		   ,0)
 
-		   ,(2
-           ,2
-           ,2
-           ,2
-           ,2016
-           ,2
-           ,1
-           ,2
-		   ,0)
-
-		   ,(3
-           ,3
-           ,3
-           ,3
-           ,2016
-           ,2
-           ,1
-           ,3
-		   ,0)
-
-		   ,(4
-           ,4
-           ,4
-           ,4
-           ,2016
-           ,2
-           ,1
-           ,4
-		   ,0)
-
-		   ,(5
-           ,5
-           ,5
-           ,5
-           ,2016
-           ,2
-           ,1
-           ,5
-		   ,0)
-		   
-		   ,(1
-           ,1
-           ,1
-           ,1
-           ,2016
-           ,2
-           ,2
-           ,2
-		   ,0)
-GO
 
 set identity_insert tblUser on;
 
 insert into tblUser (Id, FirstName, Surname, [Login], [Password], [Disabled])
 	values
-				(1, 'UserName', 'UserSurName', 'Admin', '21232f297a57a5a743894a0e4a801fc3', 0)
+				(1, 'UserName', 'UserSurName', 'Admin', '21232f297a57a5a743894a0e4a801fc3', 0) -- password: admin
 
 set identity_insert tblUser off;
 
