@@ -38,6 +38,11 @@ namespace SchoolScheduleManager.Repositories.Repositories
         #endregion
 
         #region IGroupRepository
+
+        /// <summary>
+        /// Get all groups
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<Group> GetAll()
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -63,6 +68,11 @@ namespace SchoolScheduleManager.Repositories.Repositories
             }
         }
 
+        /// <summary>
+        /// Add group to Database
+        /// </summary>
+        /// <param name="group"></param>
+        /// <returns></returns>
         public string Add(Group group)
         {
             using (TransactionScope scope = new TransactionScope())
@@ -109,9 +119,16 @@ namespace SchoolScheduleManager.Repositories.Repositories
             }
         }
 
-
         #endregion
-
+        #region Public Methods region
+        /// <summary>
+        /// Get all groups that dont have lessons at preset time
+        /// </summary>
+        /// <param name="year"></param>
+        /// <param name="semester"></param>
+        /// <param name="dayOfWeek"></param>
+        /// <param name="lessonNumb"></param>
+        /// <returns></returns>
         public IEnumerable<Group> GetAvailable(int year, int semester, int dayOfWeek, int lessonNumb)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -146,5 +163,7 @@ namespace SchoolScheduleManager.Repositories.Repositories
                 }
             }
         }
+
+        #endregion
     }
 }

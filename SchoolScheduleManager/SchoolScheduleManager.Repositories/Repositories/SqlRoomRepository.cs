@@ -35,6 +35,10 @@ namespace SchoolScheduleManager.Repositories.Repositories
         #endregion
 
         #region IRoomRepository region
+        /// <summary>
+        /// Get all rooms
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<Room> GetAll()
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -59,7 +63,11 @@ namespace SchoolScheduleManager.Repositories.Repositories
                 }
             }
         }
-
+        /// <summary>
+        /// Add room to DB
+        /// </summary>
+        /// <param name="room"></param>
+        /// <returns></returns>
         public string Add(Room room)
         {
             using (TransactionScope scope = new TransactionScope())
@@ -106,9 +114,17 @@ namespace SchoolScheduleManager.Repositories.Repositories
             }
         }
 
-        
-        #endregion
 
+        #endregion
+        #region Public Methods region
+        /// <summary>
+        /// Get all rooms that don have lessons at preset time
+        /// </summary>
+        /// <param name="year"></param>
+        /// <param name="semester"></param>
+        /// <param name="dayOfWeek"></param>
+        /// <param name="lessonNumb"></param>
+        /// <returns></returns>
         public IEnumerable<Room> GetAvailable(int year, int semester, int dayOfWeek, int lessonNumb)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -143,5 +159,6 @@ namespace SchoolScheduleManager.Repositories.Repositories
                 }
             }
         }
+        #endregion
     }
 }
