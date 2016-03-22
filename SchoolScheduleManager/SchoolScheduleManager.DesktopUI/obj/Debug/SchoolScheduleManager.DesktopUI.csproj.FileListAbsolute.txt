@@ -31,3 +31,6 @@ F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.DesktopUI\obj\Debug\Sc
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.DesktopUI\obj\Debug\SchoolScheduleManager.DesktopUI.Forms.AddSubjectForm.resources
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.DesktopUI\obj\Debug\SchoolScheduleManager.DesktopUI.Forms.RemoveForms.RemoveForm.resources
 F:\VSProgects\SchoolScheduleManager\SchoolScheduleManager.DesktopUI\obj\Debug\SchoolScheduleManager.DesktopUI.Forms.RemoveForms.RemoveLessonForm.resources
+C:\Users\Андрій\Documents\GitHub\SchoolSchedule\SchoolScheduleManager\SchoolScheduleManager.DesktopUI\bin\Debug\SchoolScheduleManager.DesktopUI.exe.config
+C:\Users\Андрій\Documents\GitHub\SchoolSchedule\SchoolScheduleManager\SchoolScheduleManager.DesktopUI\obj\Debug\SchoolScheduleManager.DesktopUI.exe
+C:\Users\Андрій\Documents\GitHub\SchoolSchedule\SchoolScheduleManager\SchoolScheduleManager.DesktopUI\obj\Debug\SchoolScheduleManager.DesktopUI.pdb
