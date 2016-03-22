@@ -1,12 +1,18 @@
-FIRST download and install MS SQL Server 2014 from https://www.microsoft.com/ru-ru/download/details.aspx?id=42299 
+FIRST download and install MS SQL Server 2014 and MS SQL Managemant studio from https://www.microsoft.com/ru-ru/download/details.aspx?id=42299 
 there you have a list of downloads. You shold chose:
 
 Express 32BIT\SQLEXPR_x86_RUS.exe
 OR 
 Express 64BIT\SQLEXPR_x64_RUS.exe
 
+AND
+
+MgmtStudio 32BIT\SQLManagementStudio_x86_RUS.exe
+OR	
+MgmtStudio 64BIT\SQLManagementStudio_x64_RUS.exe
+
 SECOND Run SchoolScheduleManager.sln and choose DesktopUI progect
- then you shold change connection string in SchoolScheduleManager\SchoolScheduleManager.DesktopUI\App.config using this pattern:
+ then you shold change connection string in this pattern :
  
 Server=myServerAddress;Database=myDataBase;User Id=myUsername;
 Password=myPassword;
