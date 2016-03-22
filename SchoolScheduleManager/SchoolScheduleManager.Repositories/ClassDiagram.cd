@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SchoolScheduleManager.Repositories.Repositories.SqlBaseRepository" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAAABBQAAAAAAgAIAAIAAAAAAAA=</HashCode>
+      <FileName>Repositories\SqlBaseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SchoolScheduleManager.Repositories.Repositories.SqlGroupRepositoty">
+    <Position X="5.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAABEgAAAAAAAAAAAAAAAAAAgAAgBAAAAAAAA=</HashCode>
+      <FileName>Repositories\SqlGroupRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SchoolScheduleManager.Repositories.Repositories.SqlRoomRepository">
+    <Position X="3.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAIAAAgAAgBAAAAAAAA=</HashCode>
+      <FileName>Repositories\SqlRoomRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SchoolScheduleManager.Repositories.Repositories.SqlTeacherRepository">
+    <Position X="7.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAQAIAAAAAAAAAAAAAAAAAAgAAgBAAAAAAgA=</HashCode>
+      <FileName>Repositories\SqlTeacherRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SchoolScheduleManager.Repositories.Repositories.SqlSubjectRepository">
+    <Position X="1.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAAAAAAAAAAAAAAABAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\SqlSubjectRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SchoolScheduleManager.Repositories.SqlUserRepository">
+    <Position X="5.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\SqlUserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SchoolScheduleManager.Repositories.Repositories.SqlLessonRepository">
+    <Position X="9" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAABAAAACAAAAgoAAAQAAAAAAA=</HashCode>
+      <FileName>Repositories\SqlLessonRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
