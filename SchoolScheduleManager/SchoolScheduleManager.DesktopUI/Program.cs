@@ -18,11 +18,11 @@ namespace SchoolScheduleManager.DesktopUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            //LoginForm frmLogin = new LoginForm();
-            //if (frmLogin.ShowDialog() != DialogResult.OK)
-            //{
-            //    return;
-            //}
+            LoginForm frmLogin = new LoginForm();
+            if (frmLogin.ShowDialog() != DialogResult.OK)
+            {
+                return;
+            }
             Application.Run(new MainForm());
      
         }
