@@ -17,6 +17,7 @@ namespace SchoolScheduleManager.DesktopUI
     {
         #region Private Fields region
         private static string connectionString = ConfigurationManager.ConnectionStrings["SchoolScheduleConnString"].ConnectionString;
+        // OD: Private fields must start with underline(for example,  "_shedule"
         private List<Lesson> schedule;
         private List<Room> roomList;
         private List<Teacher> teachersList;
