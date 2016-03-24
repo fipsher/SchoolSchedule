@@ -84,12 +84,14 @@ namespace SchoolScheduleManager.DesktopUI.Forms
 
         private bool isСorrectOfInputData()
         {
+            bool isCorrect = false;
             int temp;
             if (int.TryParse(tbYear.Text, out temp) && int.TryParse(tbLessonNumber.Text, out temp))
             {
-                return true;
+                // OD: It better, when retrun is one. You can use bool variable isCorrect.
+                isCorrect = true;
             }
-            return false;
+            return isCorrect;
         }
 
         private Lesson getFilledLesson()
