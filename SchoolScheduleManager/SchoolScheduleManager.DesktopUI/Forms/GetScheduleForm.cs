@@ -86,6 +86,8 @@ namespace SchoolScheduleManager.DesktopUI
             dgvLesson.Rows.Clear();
             if (checkFieldsOccupacy())
             {
+                // IP: думаю, тут варто було б використати інтерфейсне посилання замість класового
+                // наприклад, IBaseRepository sqlBase, - тим самим відмовившись від віртуального методу, що наслідуєтсья від інтерфейсу в базовому класі;                
                 SqlBaseRepository sqlBase;
                 EntityVariant scheduleVariant;
                 if (rbtnTeacher.Checked)
