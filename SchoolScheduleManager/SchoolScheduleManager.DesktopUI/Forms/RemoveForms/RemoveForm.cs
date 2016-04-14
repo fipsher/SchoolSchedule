@@ -51,7 +51,11 @@ namespace SchoolScheduleManager.DesktopUI.Forms.RemoveForms
                 case EntityVariant.Teacher:
                     {
                         baseRepository = new SqlTeacherRepository();
+
+                        // IP: ознака непродуманого ООП-дизайну  - метод "GetAll" (і йому подібні) слід винести або в окремий інтерфейс, або внести в базовий клас (що теж не буде найкращим варіантом)
+                        // наприклад, винести метод "GetAll" в спільний для усіх потрібних класів інтерфейс і, відповідно, використовувати інтерфейсні посилання замість класових
                         teacherList = ((SqlTeacherRepository)baseRepository).GetAll().ToList();
+                        
                         cmbTechGroupRoomSubj.Items.AddRange(teacherList.ToArray());
                     }
                     break;

@@ -12,7 +12,7 @@ using System.Transactions;
 namespace SchoolScheduleManager.Repositories.Repositories
 {
     
-    public abstract class SqlBaseRepository:IBaseRepository
+    public abstract class SqlBaseRepository : IBaseRepository
     {
         #region Protected Fields
         protected readonly string _connectionString = ConfigurationManager.ConnectionStrings["SchoolScheduleConnString"].ConnectionString;
@@ -68,7 +68,9 @@ namespace SchoolScheduleManager.Repositories.Repositories
         /// <param name="year"></param>
         /// <param name="semester"></param>
         /// <param name="entityVariant"></param>
-        /// <returns></returns>
+        /// <returns></returns>               
+
+        // IP: зробити метод інтерфейсу віртуальним - не зовсім хороше рішення
         public virtual IEnumerable<Lesson> GetSchedule(int Id, int dayOfWeek, int year, int semester, EntityVariant entityVariant)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -157,6 +159,8 @@ namespace SchoolScheduleManager.Repositories.Repositories
         /// </summary>
         /// <param name="Id"></param>
         /// <param name="entityVariant"></param>
+        
+        // IP: схоже, на цей метод не має жодних посилань в коді ....
         public void Remove(int Id, EntityVariant entityVariant)
         {
             using (TransactionScope scope = new TransactionScope())
